@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:key="key_pref_icons"
+        android:title="Icon Color"
+        android:defaultValue="0"
+        android:entries="@array/label_icons"
+        android:entryValues="@array/value_icons"
+        android:summary="%s"/>
+
+</PreferenceScreen>
